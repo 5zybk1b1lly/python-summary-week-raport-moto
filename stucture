@@ -1,6 +1,6 @@
-salesup-report-generator/
+python-summary-week-raport-moto/
 ├── src/
-│   └── salesup_reports/
+│   └── reports/
 │       ├── __init__.py
 │       ├── __main__.py          # Entry point
 │       ├── app.py               # Główna klasa aplikacji GUI
