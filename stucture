@@ -1,0 +1,29 @@
+salesup-report-generator/
+├── src/
+│   └── salesup_reports/
+│       ├── __init__.py
+│       ├── __main__.py          # Entry point
+│       ├── app.py               # Główna klasa aplikacji GUI
+│       ├── config.py            # Konfiguracja (kolory, stałe)
+│       ├── email_sender.py      # Logika SMTP
+│       ├── report_generator.py  # Generowanie HTML
+│       ├── data_processor.py    # Przetwarzanie Excel/formatowanie
+│       └── utils/
+│           ├── __init__.py
+│           ├── date_utils.py    # Funkcje daty
+│           └── formatters.py    # Formatowanie liczb
+├── tests/
+│   ├── __init__.py
+│   ├── test_date_utils.py
+│   ├── test_formatters.py
+│   └── test_data_processor.py
+├── docs/
+│   └── usage.md
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── pyproject.toml
+├── README.md
+├── LICENSE
+├── .gitignore
+└── .pre-commit-config.yaml
